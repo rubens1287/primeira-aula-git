@@ -10,17 +10,17 @@ public class Atividade {
 
         Calendar c = Calendar.getInstance();
 
-        int anoDeNascimento;
+        int idadAtual;
 
         System.out.println("Data/Hora atual: "+c.getTime());
         System.out.println("Ano atual: "+c.get(Calendar.YEAR));
 
         System.out.println("\nInforme seu ano de nascimento: ");
-        anoDeNascimento = leitor.nextInt();
+        idadAtual = c.get(Calendar.YEAR) - leitor.nextInt();
 
-        System.out.println("Sua idade é: "+ (c.get(Calendar.YEAR)-anoDeNascimento));
+        System.out.println("Sua idade é: "+ (c.get(Calendar.YEAR)-idadAtual));
 
-        if (c.get(Calendar.YEAR)-anoDeNascimento < 18) {
+        if (idadAtual < 18) {
             System.out.println("\nVocê é menor de idade");
         }
         else {
