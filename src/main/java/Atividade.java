@@ -12,7 +12,7 @@ public class Atividade {
 
         int idadAtual;
 
-        System.out.println("Data/Hora atual: "+c.getTime());
+        System.out.println("Data e Hora atual: "+c.getTime());
         System.out.println("Ano atual: "+c.get(Calendar.YEAR));
 
         System.out.println("\nInforme seu ano de nascimento: ");
