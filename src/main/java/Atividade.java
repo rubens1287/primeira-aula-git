@@ -9,7 +9,9 @@ public class Atividade {
         Scanner leitor = new Scanner(System.in);
 
         Calendar c = Calendar.getInstance();
-        
+      
+        // rubens passou aqui
+
         int idadAtual;
 
         System.out.println("Data e Hora atual: "+c.getTime());
