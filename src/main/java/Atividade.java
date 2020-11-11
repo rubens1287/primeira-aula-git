@@ -5,12 +5,13 @@ import java.util.Calendar;
 public class Atividade {
 
     public static void main(String[] args) {
-        
+
         Scanner leitor = new Scanner(System.in);
 
         Calendar c = Calendar.getInstance();
-
+      
         // rubens passou aqui
+
         int idadAtual;
 
         System.out.println("Data e Hora atual: "+c.getTime());
