@@ -10,7 +10,6 @@ public class Atividade {
 
         Calendar c = Calendar.getInstance();
       
-        // rubens passou aqui
 
         int idadAtual;
 
